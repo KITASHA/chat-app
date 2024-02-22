@@ -9,6 +9,7 @@ index
   background-color: #253141;
   width: 300px;
   height: 100vh;
+
 }
 .chat {
   background-color: #ffffff;
@@ -16,8 +17,11 @@ index
 }
 /******************************************************************************
 サイドバー
-********************************************************************************
+********************************************************************************/
 .side_bar_header{
+  background-color: #253141;
+  height: 100px;
+  padding: 0 20px;
 
 }
 
@@ -30,7 +34,9 @@ index
 }
 
 .side_bar_contents{
-
+  background-color: #2f3e51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
 }
 
 
@@ -45,12 +51,22 @@ index
 
 /*******************************************************************************
 メイン
-********************************************************************************
-.main_header{}
+********************************************************************************/
+.main_header{
+  background-color: #ffffff;
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+}
 
 .chat_title{}
 
-.main_contents{}
+.main_contents{
+  background-color: #fafafa;
+  height: calc(100vh - 100px - 90px);
+  margin-top: 46px;
+  padding: 0 40px;
+}
 
 .message{}
 
@@ -67,4 +83,10 @@ index
 
 
 .message_image{}
+
+.form{
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+}
 
